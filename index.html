@@ -1,47 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>My Research Page</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <title>Carl Hvarfner, Ph.D. Student @Lund University</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
     <header>
       <h1>My Research Page</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="research.html">Research</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+      <img src="img/my-portrait.jpg" alt="My portrait">
     </header>
-
-    <section class="hero">
-      <h2>Welcome to My Research Page</h2>
-      <p>This page is dedicated to showcasing my research and blog posts.</p>
-    </section>
-
-    <section class="research">
-      <h2>Research</h2>
+    <nav>
       <ul>
-        <li><a href="https://arxiv.org/abs/2206.04771">Joint Entropy Search for Maximally-Informed Bayesian Optimization</a></li>
-        <li><a href="https://arxiv.org/abs/2106.04278">π BO: Augmenting Acquisition Functions with User Beliefs for Bayesian Optimization</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
       </ul>
+    </nav>
+    <section class="content">
+      <h2>About Me</h2>
+      <p>I am a researcher in machine learning, focusing on the areas of Bayesian Optimization and Active Learning</p>
+      <h2>Latest Research Articles</h2>
+      <div class="article">
+        <h3>Joint Entropy Search for Maximally-Informed Bayesian Optimization</h3>
+        <p class="authors">Authors: Carl Hvarfner, Frank Hutter and Luigi Nardi</p>
+        <p class="venue">Conference: Advances in Neural Information Processing Systems (NeurIPS), 2022</p>
+        <p class="abstract">In this paper, we propose Joint Entropy Search, a new acquisition function for Bayesian optimization that maximizes the mutual information between the minimum value found and the optimum of the unknown function being optimized.</p>
+        <a href="https://arxiv.org/abs/2206.04771">Link to paper</a>
+      </div>
+      <div class="article">
+        <h3>π BO: Augmenting Acquisition Functions with User Beliefs for Bayesian Optimization</h3>
+        <p class="authors">Authors: Carl Hvarfner, Danny Stoll, Artur Souza, Marius Lindauer, Frank Hutter and Luigi Nardi</p>
+        <p class="venue">Conference: International Conference on Learning Representations (ICLR), 2022</p>
+        <p class="abstract">In this paper, we propose a new Bayesian optimization method that incorporates user beliefs about the unknown function being optimized via a personalized acquisition function. We show that our approach leads to improved performance compared to standard Bayesian optimization methods.</p>
+        <a href="https://arxiv.org/abs/2204.11051">Link to paper</a>
+      </div>
     </section>
-
-    <section class="blog">
-      <h2>Blog</h2>
-      <ul>
-        <li><a href="blog-post-1.html">Introduction to Bayesian Optimization</a></li>
-      </ul>
-    </section>
-
-    <section class="contact">
-      <h2>Contact</h2>
-      <p>Email: myemail@example.com</p>
-    </section>
-  </body>
+    <footer>
+      <p>&copy; 2023 My Research Page</p>
+    </footer>
+  </div>
+</body>
 </html>
