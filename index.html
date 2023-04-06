@@ -1,116 +1,59 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>My Research Webpage</title>
-    <style type="text/css">
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #F7F7F7;
-            color: #333333;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            box-sizing: border-box;
-            background-color: #FFFFFF;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-        }
-
-        .header {
-            display: flex;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-
-        .profile-picture {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            margin-right: 20px;
-        }
-
-        .title {
-            font-size: 36px;
-            font-weight: bold;
-            margin: 0;
-        }
-
-        .section-header {
-            font-size: 24px;
-            font-weight: bold;
-            margin-top: 40px;
-            margin-bottom: 20px;
-            text-transform: uppercase;
-            border-bottom: 1px solid #CCCCCC;
-            padding-bottom: 10px;
-        }
-
-        .section-subheader {
-            font-size: 18px;
-            font-weight: bold;
-            margin-top: 20px;
-            margin-bottom: 10px;
-        }
-
-        .publication {
-            margin-bottom: 20px;
-        }
-
-        .publication-title {
-            font-size: 18px;
-            font-weight: bold;
-            margin-top: 10px;
-            margin-bottom: 5px;
-        }
-
-        .publication-authors {
-            font-style: italic;
-            margin-bottom: 5px;
-        }
-
-        .publication-venue {
-            margin-bottom: 5px;
-        }
-
-        .publication-link {
-            font-size: 14px;
-            color: #0000FF;
-            text-decoration: none;
-            margin-left: 5px;
-        }
-    </style>
+	<meta charset="UTF-8">
+	<title>My Personal Webpage</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="header">
-            <img class="profile-picture" src="profile-picture.jpg">
-            <h1 class="title">John Smith</h1>
-        </div>
-        <div class="section">
-            <h2 class="section-header">About Me</h2>
-            <p>I am a researcher in the field of machine learning, with a particular focus on Bayesian optimization for
-                the optimization of complex black-box functions.</p>
-        </div>
-        <div class="section">
-            <h2 class="section-header">Publications</h2>
-            <div class="publication">
-                <div class="publication-title">Joint Entropy Search for Maximally-Informed Bayesian Optimization</div>
-                <div class="publication-authors">Carl Hvarfner, Frank Hutter, Luigi Nardi</div>
-                <div class="publication-venue">Neural Information Processing Systems (NeurIPS), 2022</div>
-                <a class="publication-link" href="https://arxiv.org/abs/2206.04771">[arXiv]</a>
-            </div>
-            <h2 class="section-header">Publications</h2>
-            <div class="publication">
-                <div class="publication-title">πBO: Augmenting Acquisition Functions with User Beliefs for Bayesian
-                    Optimization</div>
-                <div class="publication-authors">Carl Hvarfner, Danny Stoll, Artur Souza, Marius Lindauer, Frank Hutter,
-                    Luigi Nardi </div>
-                <div class="publication-venue">International Conference on Learning Representations (ICLR), 2022</div>
-                <a class="publication-link" href="https://arxiv.org/abs/2204.11051">[arXiv]</a>
-            </div>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#research">Research</a></li>
+				<li><a href="#blog">Blog</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="about">
+			<h1>About Me</h1>
+			<p>Hello! I am a researcher in the field of machine learning, focusing on Bayesian optimization and related topics. I enjoy working on challenging problems and finding new ways to approach them.</p>
+			<p>My current research interests include:</p>
+			<ul>
+				<li>Bayesian Optimization</li>
+				<li>Active Learning</li>
+			</ul>
+		</section>
+
+		<section id="research">
+			<h1>Research</h1>
+			<p>Please see my <a href="research.html">research page</a> for a list of publications and projects.</p>
+		</section>
+
+		<section id="blog">
+			<h1>Blog</h1>
+			<p>Please see my <a href="blog.html">blog page</a> for a collection of posts on various topics related to machine learning.</p>
+		</section>
+
+		<section id="contact">
+			<h1>Contact</h1>
+			<p>Feel free to reach out to me at:</p>
+			<ul>
+				<li>Email: myemail@example.com</li>
+				<li>Twitter: <a href="https://twitter.com/mytwitter">@mytwitter</a></li>
+				<li>LinkedIn: <a href="https://www.linkedin.com/in/mylinkedin/">mylinkedin</a></li>
+			</ul>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 My Personal Webpage</p>
+	</footer>
+</body>
+</html>
+
+

@@ -1,0 +1,48 @@
+!DOCTYPE html>
+<html>
+<head>
+	<title>My Blog - Bayesian Optimization</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>My Blog</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="publications.html">Publications</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="about.html">About Me</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<article>
+			<header>
+				<h2>What is Bayesian Optimization?</h2>
+			</header>
+			<section>
+				<p>Bayesian optimization is a technique used in machine learning to find the optimal values of parameters for a given problem. It involves constructing a probabilistic model that represents the relationship between the parameters and the objective function that we want to optimize, and using this model to guide the search for the optimal parameters.</p>
+			</section>
+			<section>
+				<h3>How Does it Work?</h3>
+				<p>Bayesian optimization works by iteratively proposing candidate values for the parameters and evaluating their performance on the objective function. The performance of each candidate is used to update the probabilistic model, which in turn guides the choice of the next candidate. The process continues until a satisfactory solution is found or a predefined stopping criterion is met.</p>
+				<img src="bayesian_optimization.png" alt="Bayesian Optimization Diagram">
+				<figcaption>An example of the Bayesian optimization process</figcaption>
+			</section>
+			<section>
+				<h3>Why is it Useful?</h3>
+				<p>Bayesian optimization is useful when the objective function is expensive to evaluate, since it allows us to explore the parameter space efficiently and with as few evaluations as possible. It is also useful when the objective function is noisy or when there are multiple local optima, since the probabilistic model can help us avoid getting stuck in a local optimum and guide the search towards the global optimum.</p>
+			</section>
+			<section>
+				<h3>Example</h3>
+				<p>As an example, consider the problem of finding the optimal value of a function f(x) = sin(x) + 0.1x on the interval [0, 10]. We can use Bayesian optimization to find the value of x that maximizes the function:</p>
+				<img src="sin_x.png" alt="Function f(x) = sin(x) + 0.1x">
+				<p>We start by constructing a probabilistic model of the relationship between x and f(x), based on the initial observations of the function. We then propose a candidate value for x based on the model, evaluate the function at that value, and update the model based on the new observation. We repeat this process until we find the value of x that maximizes the function:</p>
+				<img src="sin_x_optimized.png" alt="Optimized function f(x) = sin(x) + 0.1x">
+				<p>In this case, the optimal value of x is around 7.5, which maximizes the function f(x).</p>
+			</section>
+		</article>
+	</main>
+	<footer>
+		<p>&copy; 2023 Carl Hvarfner
