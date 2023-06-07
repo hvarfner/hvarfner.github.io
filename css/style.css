@@ -3,7 +3,6 @@ html, body, header, section, div, h1, h2, h3, p, ul, li, img {
   margin: 0;
   padding: 0;
   border: none;
-  box-sizing: border-box;
 }
 
 body {
@@ -13,7 +12,7 @@ body {
 }
 
 .container {
-  max-width: 300px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -29,7 +28,7 @@ header h1 {
 }
 
 header img.portrait {
-  max-width: 100%;
+  max-width: 200px;
   height: auto;
   border-radius: 50%;
   object-fit: cover;
@@ -47,4 +46,9 @@ section#research-interests h2 {
 
 section#research-interests p {
   font-size: 16px;
+  line-height: 1.5;
+}
+
+section#publications .publication {
+  display: flex;
  
