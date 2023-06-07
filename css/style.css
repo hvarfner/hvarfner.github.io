@@ -10,20 +10,7 @@ body {
   color: #333;
   background-color: #f8f8f8;
 }
-.portrait {
-  max-width: 200px;
-  height: auto;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: center;
-}
 
-.publication-img {
-  max-width: 100%;
-  height: auto;
-  object-fit: cover;
-  object-position: center;
-}
 .container {
   max-width: 960px;
   margin: 0 auto;
@@ -40,8 +27,8 @@ header h1 {
   margin-bottom: 10px;
 }
 
-header img {
-  max-width: 20%;
+header img.portrait {
+  max-width: 200px;
   height: auto;
   border-radius: 50%;
   object-fit: cover;
@@ -64,39 +51,4 @@ section#research-interests p {
 
 section#publications .publication {
   display: flex;
-  margin-bottom: 40px;
-}
-
-section#publications .publication-image {
-  flex: 0 0 200px;
-  margin-right: 20px;
-}
-
-section#publications .publication-image img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-section#publications .publication-details h3 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-section#publications .publication-details p {
-  font-size: 16px;
-  line-height: 1.5;
-  margin-bottom: 10px;
-}
-
-section#publications .publication-details .authors {
-  font-style: italic;
-}
-
-section#publications .publication-details .conference {
-  color: #666;
-}
-
-section#publications .publication-details .abstract {
-  color: #888;
-}
+ 
