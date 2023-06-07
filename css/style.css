@@ -10,7 +10,20 @@ body {
   color: #333;
   background-color: #f8f8f8;
 }
+.portrait {
+  max-width: 200px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
 
+.publication-img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
 .container {
   max-width: 960px;
   margin: 0 auto;
