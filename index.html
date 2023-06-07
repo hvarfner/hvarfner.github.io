@@ -1,45 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Carl Hvarfner, Ph.D. Student @Lund University</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
+    <title>My Personal Webpage</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <div class="container">
     <header>
-      <h1>My Research Page</h1>
-      <img src="img/my-portrait.jpg" alt="My portrait">
+        <div class="container">
+            <h1>Welcome to My Personal Webpage</h1>
+            <img src="portrait.jpg" alt="My Portrait">
+        </div>
     </header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="blog.html">Blog</a></li>
-      </ul>
-    </nav>
-    <section class="content">
-      <h2>About Me</h2>
-      <p>I am a researcher in machine learning, focusing on the areas of Bayesian Optimization and Active Learning</p>
-      <h2>Latest Research Articles</h2>
-      <div class="article">
-        <h3>Joint Entropy Search for Maximally-Informed Bayesian Optimization</h3>
-        <p class="authors">Authors: Carl Hvarfner, Frank Hutter and Luigi Nardi</p>
-        <p class="venue">Conference: Advances in Neural Information Processing Systems (NeurIPS), 2022</p>
-        <p class="abstract">In this paper, we propose Joint Entropy Search, a new acquisition function for Bayesian optimization that maximizes the mutual information between the minimum value found and the optimum of the unknown function being optimized.</p>
-        <a href="https://arxiv.org/abs/2206.04771">Link to paper</a>
-      </div>
-      <div class="article">
-        <h3>π BO: Augmenting Acquisition Functions with User Beliefs for Bayesian Optimization</h3>
-        <p class="authors">Authors: Carl Hvarfner, Danny Stoll, Artur Souza, Marius Lindauer, Frank Hutter and Luigi Nardi</p>
-        <p class="venue">Conference: International Conference on Learning Representations (ICLR), 2022</p>
-        <p class="abstract">In this paper, we propose a new Bayesian optimization method that incorporates user beliefs about the unknown function being optimized via a personalized acquisition function. We show that our approach leads to improved performance compared to standard Bayesian optimization methods.</p>
-        <a href="https://arxiv.org/abs/2204.11051">Link to paper</a>
-      </div>
+
+    <section id="research-interests">
+        <div class="container">
+            <h2>Research Interests</h2>
+            <p>Here, you can provide a brief overview of your research interests.</p>
+        </div>
     </section>
-    <footer>
-      <p>&copy; 2023 My Research Page</p>
-    </footer>
-  </div>
+
+    <section id="publications">
+        <div class="container">
+            <h2>Publications</h2>
+
+            <div class="publication">
+                <div class="publication-image">
+                    <img src="placeholder.jpg" alt="Article Image">
+                </div>
+                <div class="publication-details">
+                    <h3>Article Title 1</h3>
+                    <p class="authors">Author 1, Author 2, Author 3</p>
+                    <p class="conference">Conference Name</p>
+                    <p class="abstract">Abstract of the article goes here.</p>
+                </div>
+            </div>
+
+            <div class="publication">
+                <div class="publication-image">
+                    <img src="placeholder.jpg" alt="Article Image">
+                </div>
+                <div class="publication-details">
+                    <h3>Article Title 2</h3>
+                    <p class="authors">Author 1, Author 2</p>
+                    <p class="conference">Conference Name</p>
+                    <p class="abstract">Abstract of the article goes here.</p>
+                </div>
+            </div>
+
+            <div class="publication">
+                <div class="publication-image">
+                    <img src="placeholder.jpg" alt="Article Image">
+                </div>
+                <div class="publication-details">
+                    <h3>Article Title 3</h3>
+                    <p class="authors">Author 1, Author 2</p>
+                    <p class="conference">Conference Name</p>
+                    <p class="abstract">Abstract of the article goes here.</p>
+                </div>
+            </div>
+
+            <div class="publication">
+                <div class="publication-image">
+                    <img src="placeholder.jpg" alt="Article Image">
+                </div>
+                <div class="publication-details">
+                    <h3>Article Title 4</h3>
+                    <p class="authors">Author 1</p>
+                    <p class="conference">Conference Name</p>
+                    <p class="abstract">Abstract of the article goes here.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
