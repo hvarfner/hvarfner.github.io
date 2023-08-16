@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Outreach on </title>
+    <link>/tags/outreach.html</link>
+    <description>Recent content in Outreach on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 05 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/outreach/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The version 2.0 of LAMMPS tutorials has been released</title>
+      <link>/news/2023-lammpstutorial-v2.0/</link>
+      <pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/news/2023-lammpstutorial-v2.0/</guid>
+      <description>The version 2.0 of LAMMPS tutorial has just been published, and offers: * a new structure with a sphinx template * tutorials are now written in rst format, instead of html, which should facilitate future collaborations * a gorgeous dark mode (for the tutorials, not yet for the index page)
+The version 1.0 is still visible here, but is not maintained and some commands are likely to be obsolete.</description>
+    </item>
+    
+    <item>
+      <title>The version 0.7 of MAICoS has been released</title>
+      <link>/news/2023-maicos-v0.7/</link>
+      <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/news/2023-maicos-v0.7/</guid>
+      <description>The version 0.7 of MAICoS has been released. It comes with: * an improved documentation with theory and tutorials * a &amp;lsquo;Jitter&amp;rsquo; option to produce smooth density profiles * new modules for cylindrical and spherical geometries</description>
+    </item>
+    
+  </channel>
+</rss>

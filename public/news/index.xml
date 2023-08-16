@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on </title>
+    <link>/news.html</link>
+    <description>Recent content in News on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 10 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PhD Position Available in LiPhy (Grenoble, France)</title>
+      <link>/news/2023-phd-offer/</link>
+      <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/news/2023-phd-offer/</guid>
+      <description>Scope. With the goal to reach carbon neutrality by 2050, direct air capture (DAC) of CO2 from wet flue gases is one brick of the carbon mitigation strategy – especially with the next generation of solid porous sorbents based on Metal-Organic Frameworks (MOF). While thermodynamics of the CO2 capture is well documented in the literature, little is known about molecular diffusion and transport properties in MOF angstropores (in particular, in the presence of environmental humidity).</description>
+    </item>
+    
+    <item>
+      <title>I have obtained a position at French CNRS</title>
+      <link>/news/2023-cnrs-start/</link>
+      <pubDate>Thu, 29 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/news/2023-cnrs-start/</guid>
+      <description>In the continuity of my MSCA fellowship, I&amp;rsquo;ve been hired by the French CNRS (Section 11) as a tenured full time researcher at LIPhy (UGA).</description>
+    </item>
+    
+    <item>
+      <title>The version 2.0 of LAMMPS tutorials has been released</title>
+      <link>/news/2023-lammpstutorial-v2.0/</link>
+      <pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/news/2023-lammpstutorial-v2.0/</guid>
+      <description>The version 2.0 of LAMMPS tutorial has just been published, and offers: * a new structure with a sphinx template * tutorials are now written in rst format, instead of html, which should facilitate future collaborations * a gorgeous dark mode (for the tutorials, not yet for the index page)
+The version 1.0 is still visible here, but is not maintained and some commands are likely to be obsolete.</description>
+    </item>
+    
+    <item>
+      <title>New MSCA project NanoSep starting at UGA</title>
+      <link>/news/2023-liphy-arrival/</link>
+      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/news/2023-liphy-arrival/</guid>
+      <description>After 2 great years at the ICP in Stuttgart, I am starting my own MSCA project (NanoSep) at LIPhy (UGA) in Benoit Coasne group.</description>
+    </item>
+    
+    <item>
+      <title>The version 0.7 of MAICoS has been released</title>
+      <link>/news/2023-maicos-v0.7/</link>
+      <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/news/2023-maicos-v0.7/</guid>
+      <description>The version 0.7 of MAICoS has been released. It comes with: * an improved documentation with theory and tutorials * a &amp;lsquo;Jitter&amp;rsquo; option to produce smooth density profiles * new modules for cylindrical and spherical geometries</description>
+    </item>
+    
+  </channel>
+</rss>
