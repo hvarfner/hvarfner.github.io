@@ -2,11 +2,11 @@
 
 
 # Display name
-title: Simon Gravelle
+title: Carl Hvarfner
 
 # Full name (for SEO)
-first_name: Simon
-last_name: Gravelle
+first_name: Carl
+last_name: Hvarfner
 
 # Status emoji
 status:
@@ -16,28 +16,28 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: MSCA Fellow
+role: PhD Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: LIPhy, University Grenoble Alpes
-    url: https://liphy.univ-grenoble-alpes.fr/
+  - name: Lund University, WASP
+    url: https://wasp-sweden.org/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am a computer physicist in soft matter and fluids at interfaces, currently at the LIPhy in Grenoble (France).
-
+bio: I am a PhD student in Machine Learning, specifically Bayesian Optimization, at Lund University in Sweden.
+#
 # Interests to show in About widget
 interests:
-  - Soft Matter
-  - Fluid at interface
-  - Computer simulations
+  - Machine Learning
+  - Optimization
+  - Sports
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Nanofluidics
-      institution: University of Lyon (France)
-      year: 2015
+    - course: PhD in Machine Learning
+      institution: Lund University
+      year: 2020-
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -49,19 +49,16 @@ social:
     link: '/#contact'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GravelleSimon
+    link: https://twitter.com/CHvarfner
     label: Follow me on Twitter
     display:
       header: true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.com/citations?user=9fD2JlYAAAAJ&hl=fr
+    link: https://scholar.google.se/citations?hl=en&user=nmNmAP8AAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/simongravelle
-  - icon: gitlab
-    icon_pack: fab
-    link: https://gitlab.com/sgravelle
+    link: https://github.com/hvarfner
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -78,15 +75,12 @@ highlight_name: true
 
 **About me**
 
-I am a physicist in soft matter and fluids at interfaces at the [LIPhy](https://liphy.univ-grenoble-alpes.fr/) in Grenoble (France). In 2022 I received a [MSCA](https://marie-sklodowska-curie-actions.ec.europa.eu/) grant (*NanoSep*) to study the demixing of fluid mixtures by hybrid nanoporous materials, and I will soon be working at [CNRS](https://www.cnrs.fr/).
+I am a third-year PhD student in Machine Learning, specifically Bayesian Optimization, at Lund University in Sweden.
 
 **Open source and open data**
 
-* [MAICoS](https://maicos-devel.gitlab.io/maicos/index.html), a Python toolkit for analyzing confined molecular simulations
-* my [Github](https://github.com/simongravelle/) repository containing molecular simulation scripts and data
+* My [Github](https://github.com/hvarfner/) containing various research- and non-research-related projects
 
 **Outreach**
 
-* [LAMMPS tutorials](https://lammpstutorials.github.io) for beginners and advanced LAMMPS users
-* [GROMACS tutorials](https://gromacstutorials.github.io) for beginners and advanced GROMACS users
-* [gallery of animations](https://www.youtube.com/@SimonGravelle) of molecular systems
+* [SecondMind talk:](https://www.youtube.com/watch?v=-huaWITLyE8&t=16s) A large portion of my work was recently presented by my supervisor, Luigi Nardi, at [SecondMind](https://www.secondmind.ai)

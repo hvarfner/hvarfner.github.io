@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Job | Carl Hvarfner</title>
+    <link>https://hvarfner.github.io/tag/job.html</link>
+      <atom:link href="https://hvarfner.github.io/tag/job/index.xml" rel="self" type="application/rss+xml" />
+    <description>Job</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 10 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hvarfner.github.io/media/logo_hub4241536a40aba19023fe53b0ae22453_4788_300x300_fit_lanczos_3.png</url>
+      <title>Job</title>
+      <link>https://hvarfner.github.io/tag/job.html</link>
+    </image>
+    
+    <item>
+      <title>PhD Position Available in LiPhy (Grenoble, France)</title>
+      <link>https://hvarfner.github.io/news/2023-phd-offer.html</link>
+      <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://hvarfner.github.io/news/2023-phd-offer.html</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Scope.&lt;/strong&gt; With the goal to reach carbon neutrality by 2050, direct air capture (DAC) of CO2 from wet flue
+gases is one brick of the carbon mitigation strategy – especially with the next generation of solid porous
+sorbents based on Metal-Organic Frameworks (MOF). While thermodynamics of the CO2 capture is well
+documented in the literature, little is known about molecular diffusion and transport properties in MOF
+angstropores (in particular, in the presence of environmental humidity). Also, diffusion through pore scales
+of the applicative sorbing medium, ranging from nanopores (pore diameter ~nm) to macropores (&amp;gt; 50 nm)
+and beyond remain open. In order to fill the gap and gain insight into multiscale transport properties and
+try to figure CO2 capture optimization through MOF based sorbents, we ambition to develop a multiscale
+approach based on a lattice model fed by molecular simulations.&lt;/p&gt;
+&lt;p&gt;In more detail, the objective of this PhD proposal is two-fold. i. Using molecular simulations [e.g. Magnin
+et al. J. Phys. Chem. C 2022], we aim to unravel the molecular phenomena that govern the thermodynamic
+and kinetic mechanisms when capturing CO2 using a multi-scale porous material. With this first aspect,
+we aim to rationalize the use of nanoporous materials for practical engineering processes by developing
+a robust and general methodology to link physico-chemical properties at different scales. ii. Using a
+bottom-up strategy, we will upscale the results obtained using atomistic simulations to mimic phase
+separation and transport of CO2/N2/H2O mixtures at the macroscale. To do so, a simple yet realistic lattice
+model [Botan et al. Phys. Rev. E 2015], which can be seen as a pore network model accounting for the
+change of the local thermodynamic/transport properties in a kinetic engineering process (e.g. Pressure
+Swing Adsorption), will be used.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Potential candidate.&lt;/strong&gt; The PhD candidate should have a background in physics, physical
+chemistry/chemical physics or materials science. He/she should also have some experience in scientific
+programming and a background in statistical mechanics (including if possible Monte Carlo or/and
+Molecular Dynamics).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Practical aspects.&lt;/strong&gt; The position is available starting January 2024 and lasts for 36 months. The PhD student
+will work under the supervision of Benoit Coasne/Simon Gravelle (LIPhy, Grenoble) and Yann Magnin
+(CSTJF, Pau). He/she will be located at LIPhy in Grenoble, France but several short stays in CSTJF in
+Pau, France will be planned. Applicants should provide a CV, a letter of motivation and the names and
+email addresses of 2 or 3 references to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Yann Magnin (yann.magnin at totalenergies.com)&lt;/li&gt;
+&lt;li&gt;Benoit Coasne (benoit.coasne at univ-grenoble-alpes.fr)&lt;/li&gt;
+&lt;li&gt;Simon Gravelle (simon.gravelle at univ-grenoble-alpes.fr)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;More information:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://benoitcoasne.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://benoitcoasne.github.io/&lt;/a&gt; (Coasne’s research group website)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.yann-magnin.fr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.yann-magnin.fr/&lt;/a&gt; (research website)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
