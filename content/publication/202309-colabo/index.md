@@ -11,5 +11,5 @@ links:
   - icon_pack: fas
     icon: scroll
     name: Link
-    url: 'https://comingsoon'
+    url: 'https://comingsoon.io'
 ---
