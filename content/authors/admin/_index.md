@@ -29,8 +29,8 @@ bio: I am a PhD student in Machine Learning, specifically Bayesian Optimization,
 # Interests to show in About widget
 interests:
   - Machine Learning
-  - Optimization
   - Sports
+  - Piano
 
 # Education to show in About widget
 education:
@@ -75,12 +75,26 @@ highlight_name: true
 
 **About me**
 
-I am a third-year PhD student in Machine Learning, specifically Bayesian Optimization, at Lund University in Sweden.
+I am a fourth-year PhD student in Machine Learning, specifically Bayesian Optimization, at Lund University in Sweden. In May 2024, I will be joining Meta as a Research Scientist Intern, working on Adaptive Experimentation and Bayesian Optimization.
+ 
+My [Github](https://github.com/hvarfner/) containing various research- and non-research-related projects
 
-**Open source and open data**
 
-* My [Github](https://github.com/hvarfner/) containing various research- and non-research-related projects
+**Research**
+
+
+* **May, 2024:** My work [Vanilla Bayesian Optimization Performs Great in High Dimensions](https://arxiv.org/abs/2402.02229) was accepted to ICML 2024!
+* **January, 2024:** My work [A General Framework for User-Guided Bayesian Optimization](https://arxiv.org/abs/2311.14645) was accepted to ICLR 2024 as a Spotlight presentation (top 5%)!
+* **September, 2023:** My work [Self-Correcting Bayesian Optimization through Bayesian Active Learning](https://arxiv.org/abs/2304.11005) was accepted to NeurIPS 2023!
+
 
 **Outreach**
 
-* [SecondMind talk:](https://www.youtube.com/watch?v=-huaWITLyE8&t=16s) A large portion of my work was recently presented by my supervisor, Luigi Nardi, at [SecondMind](https://www.secondmind.ai)
+
+* [AutoML Seminar talk:] I am scheduled to present at the [AutoML Seminar series](https://automl-seminars.github.io/) on June 13, 2024.
+
+* [Talk at Unversity of Copenhagen:] I recently presented my work on high-dimensional Bayesian Optiization at the Pioneer Center for AI in Copenhagen on May 3, 2024.
+
+* [SecondMind talk:](https://www.youtube.com/watch?v=-huaWITLyE8&t=16s) A large portion of my work was presented by my supervisor, Luigi Nardi, at [SecondMind](https://www.secondmind.ai)
+
+

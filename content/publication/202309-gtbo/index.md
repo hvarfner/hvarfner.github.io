@@ -1,15 +1,15 @@
 ---
 title: "High-Dimensional Bayesian Optimization with Group Testing"
-date: 2023-09-30
-publishDate: 2023-09-30
-authors: ["Erik Hellsten*", "**Carl Hvarfner***", "Leonard Papenmeier*", "Luigi Nardi"]
+date: 2023-01-30
+publishDate: 2023-04-30
+authors: ["**Carl Hvarfner**", "Erik Hellsten*", "Luigi Nardi"]
 publication_types: ["1"]
-abstract:  "Bayesian optimization is an effective method for optimizing expensive-to-evaluate black-box functions. High-dimensional problems are particularly challenging as the surrogate model of the objective suffers from the curse of dimensionality, which makes accurate modeling difficult. We propose a group testing approach to identify active variables to facilitate efficient optimization in these domains. The proposed algorithm, Group Testing Bayesian Optimization (GTBO), first runs a testing phase where groups of variables are systematically selected and tested on whether they influence the objective. To that end, we extend the well-established theory of group testing to functions of continuous ranges. In the second phase, GTBO guides optimization by placing more importance on the active dimensions. By exploiting the axis-aligned subspace assumption, GTBO is competitive against state-of-the-art methods on several synthetic and real-world high-dimensional optimization tasks. Furthermore, GTBO aids in the discovery of active parameters in applications, thereby enhancing practitioners' understanding of the problem at hand."
+abstract:  "High-dimensional problems have long been considered the Achilles' heel of Bayesian optimization algorithms. Spurred by the curse of dimensionality, a large collection of algorithms aim to make it more performant in this setting, commonly by imposing various simplifying assumptions on the objective. In this paper, we identify the degeneracies that make vanilla Bayesian optimization poorly suited to high-dimensional tasks, and further show how existing algorithms address these degeneracies through the lens of lowering the model complexity. Moreover, we propose an enhancement to the prior assumptions that are typical to vanilla Bayesian optimization algorithms, which reduces the complexity to manageable levels without imposing structural restrictions on the objective. Our modification - a simple scaling of the Gaussian process lengthscale prior with the dimensionality - reveals that standard Bayesian optimization works drastically better than previously thought in high dimensions, clearly outperforming existing state-of-the-art algorithms on multiple commonly considered real-world high-dimensional tasks."
 featured: true
-publication: "Preprint, 2023 (under review)."
+publication: "International Conference of Machine Learning, 2024."
 links:
   - icon_pack: fas
     icon: scroll
     name: Link
-    url: 'https://arxiv.org/abs/2310.03515v1'
+    url: 'https://arxiv.org/abs/2402.02229'
 ---
